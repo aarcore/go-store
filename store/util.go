@@ -8,8 +8,9 @@ import (
 func NormalizeKey(key string) string {
 	key = strings.Replace(key, "\\", "/", -1)
 	key = strings.Replace(key, " ", "", -1)
-	
-	return ""
+	key = filterNewLines(key)
+
+	return key
 }
 
 func filterNewLines(s string) string {
