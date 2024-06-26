@@ -12,5 +12,4 @@ const (
 	Qiniu StoreName = "qiniu"
 	Aliyun StoreName = "aliyun"
 	Minio StoreName = "minio"
-	
 )
